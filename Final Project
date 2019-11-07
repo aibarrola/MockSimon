@@ -1,0 +1,66 @@
+/*
+ * Complex.cpp
+ *
+ *  Created on: Sep 25, 2019
+ *      Author: AngeloFolder
+ */
+
+
+//Include files
+#include "Complex.h"
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+//Constructor
+Complex::Complex(){
+realPart = 0;
+imaginPart=0;
+}
+
+//Augumented constructor
+Complex::Complex(double Real, double Imagin)
+{
+realPart = Real;
+imaginPart = Imagin;
+}
+
+//ostream operator
+ostream& operator<<(ostream& out, const Complex& obj){
+out << "(" << obj.realPart << "," << obj.imaginPart << ")";
+return out;
+}
+
+//+ operator
+Complex Complex :: operator+(const Complex& obj)const{
+Complex sum;
+sum.realPart = realPart + obj.realPart;
+sum.imaginPart = imaginPart + obj.imaginPart;
+return sum;
+}
+
+//> operator
+bool Complex ::operator> (const Complex& obj) const{
+float sum1 = sqrt(realPart*realPart + imaginPart*imaginPart);
+float sum2=sqrt(obj.realPart*obj.realPart + obj.imaginPart*obj.imaginPart);
+if(sum1>sum2)
+return true;
+return false;
+}
+
+//find largest
+void Complex::findLargest(Complex arr[],int size,Complex &max){
+if(size==0)
+return;
+else
+{
+float val = arr[size-1].realPart*arr[size-1].realPart+arr[size-1].imaginPart*arr[size-1].imaginPart;
+float maxval = max.realPart*max.realPart+max.imaginPart*max.imaginPart;
+
+if(val>maxval)
+max = arr[size];
+
+return findLargest(arr,size-1,max);
+}
+}
