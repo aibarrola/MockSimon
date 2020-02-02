@@ -12,6 +12,7 @@ The following **required** functionality is complete:
 
 * [X] Allows user to repeat a sequence after the device creates a series of lights 
 * [X] Incorporated light-emitting diode to display the sequence 
+* [X] The pattern gets longer every time the player successfully repeats the pattern
 
 ## Notes
 Final project for CmpE 30 class 
