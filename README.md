@@ -1,6 +1,6 @@
-# *Mock Simon r*
+# *Mock Simon*
 
-**Mock Simon** is a program built on eclipse
+**Mock Simon** is a classic memorization game built on Eclipse
 
 Submitted by: **Angelo Ibarrola**
 
@@ -10,15 +10,8 @@ Time spent: **10+** hours spent in total
 
 The following **required** functionality is complete:
 
-* [x] User can click on button to repeat pattern given 
-
-## Video Walkthrough 
-
-Here's a walkthrough of implemented user stories:
-
-<img src='http://g.recordit.co/oyylckSYIs.gif' />
-
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
+* [X] Allows user to repeat a sequence after the device creates a series of lights 
+* [X] Incorporated light-emitting diode to display the sequence 
 
 ## Notes
 Final project for CmpE 30 class 
