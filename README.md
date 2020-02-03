@@ -14,8 +14,13 @@ The following **required** functionality is complete:
 * [X] Incorporated light-emitting diode to display the sequence 
 * [X] The pattern gets longer every time the player successfully repeats the pattern
 
-## Video Demonstration
-http://g.recordit.co/19XHsI9O2Q.gif
+## Video Walkthrough 
+
+Here's a walkthrough of implemented user stories:
+
+<img src='http://g.recordit.co/19XHsI9O2Q.gif' />
+
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 Final project for CmpE 30 class 
