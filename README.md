@@ -14,5 +14,8 @@ The following **required** functionality is complete:
 * [X] Incorporated light-emitting diode to display the sequence 
 * [X] The pattern gets longer every time the player successfully repeats the pattern
 
+## Video Demonstration
+http://g.recordit.co/19XHsI9O2Q.gif
+
 ## Notes
 Final project for CmpE 30 class 
