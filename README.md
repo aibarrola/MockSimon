@@ -18,7 +18,7 @@ The following **required** functionality is complete:
 
 Here's a walkthrough of implemented user stories:
 
-<img src= 'http://g.recordit.co/bTGCmQ4Oa6.gif' />
+<img src= 'https://recordit.co/OGdkW9EFrS' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
